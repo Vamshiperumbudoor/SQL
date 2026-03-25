@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 -- I want to see the names of all employees who have a salary higher than the average salary of the whole company."
 
 -- Hint: This requires a Subquery (a query inside a query).
