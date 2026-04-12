@@ -48,7 +48,12 @@ group by d.location, d.dept_name
 order by total_amount desc;
 
 
+-- Show employee name, their department location, and their orders
 
+select e.name, d.location, o.product, o.amount from employees e
+inner join departments d on e.department = d.dept_name
+inner join orders o on e.emp_id = o.emp_id
+order by e.name;
 
 
 
